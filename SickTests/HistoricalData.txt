@@ -1,0 +1,1311 @@
+﻿
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+<html>
+
+
+	<head>
+
+
+		<title>SICK AG - AutoIdent - CLV6xx Embedded WebServer</title>
+
+
+		<link rel="stylesheet" type="text/css" href="/FS/Webserver/sick.css" />
+
+
+		<meta http-equiv="imagetoolbar" content="false" />
+
+
+	</head>
+
+
+	<body>
+
+
+
+
+
+
+		<!-- CONTENT -->
+
+
+		<div id="lc_content_small">
+
+
+
+
+
+
+		<!-- CONTENT TABLE -->
+
+
+		<table cellpadding="0" cellspacing="0" border="0" class="lc_contentframe">
+
+
+
+
+
+
+
+
+
+
+<!-- GENERATED CONTENT BELOW -->
+
+
+
+
+
+
+
+
+
+
+		<!-- HEADING -->
+
+
+		<tr valign="top">
+
+
+			<td colspan="2" class="lc_pageheader">
+
+
+				<h1>Current&nbsp;Results</h1>
+
+
+				<div class="lc_block">
+
+
+					This page is automatically updated every 5 Minutes if the device is available.<br/>
+
+
+					<noscript><br/><br/>It seems that JavaScript is disabled on your browser. The automatic update and the link above might not work.<br/>
+
+
+					Click <a href='/Diagnostic_ReadingDiag' class="lc_link3">here</a> to update manually or enable JavaScript.</noscript>
+
+
+				<br/>
+
+
+				</div>
+
+
+				<div class="lc_block_underheader"></div>
+
+
+			</td>
+
+
+		</tr>
+
+
+		<!-- /HEADING -->
+
+
+		<tr>
+
+
+			<td class="lc_contentcolumn03_small">
+
+
+				<div class="lc_contentelement_small">
+
+
+					<input type="button" value="Update" onclick="ReloadData()"><br/><br/>
+
+
+<table class="lc_contenttable"><tr>
+
+
+<td class ="lc_contenttable_headercol lc_padl10 lc_high_headercol" style="padding-right:10px;">Nb</td>
+
+
+<td class ="lc_contenttable_headercol lc_padl10" style="padding-right:10px;">Index</td>
+
+
+<td class ="lc_contenttable_headercol lc_padl10" style="padding-right:10px;">Code&nbsp;Type</td>
+
+
+<td class ="lc_contenttable_headercol lc_padl10" style="padding-right:10px;">Scanner</td>
+
+
+<td class ="lc_contenttable_headercol lc_padl10" style="padding-right:10px;">Content</td></tr>
+
+
+<tr>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10 lc_high_contentcol" style="padding-right:0px;">1</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">0</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">Code Type 1&nbsp;<br/>Code Type 2&nbsp;<br/>Code Type 3&nbsp;<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">1<br/>1<br/>1<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">020590007306067115200311370072<br/>412590000123501024068087210884318<br/>00059005710050112402<br/></td>
+
+
+</tr>
+
+
+<tr>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10 lc_high_contentcol" style="padding-right:0px;">2</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">0</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">Code Type 1&nbsp;<br/>Code Type 2&nbsp;<br/>Code Type 3&nbsp;<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">1<br/>1<br/>1<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">020590007306067115200311370072<br/>412590000123501024068087210884318<br/>00059005710050112402<br/></td>
+
+
+</tr>
+
+
+<tr>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10 lc_high_contentcol" style="padding-right:0px;">3</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">2</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">Code Type 2&nbsp;<br/>Code Type 3&nbsp;<br/>&nbsp;<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">1<br/>1<br/>1<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">412590000123501024068087210884318<br/>00059005710050112402<br/>00059005710051783663<br/></td>
+
+
+</tr>
+
+
+<tr>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10 lc_high_contentcol" style="padding-right:0px;">4</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">1</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">Code Type 2&nbsp;<br/>Code Type 3&nbsp;<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">1<br/>1<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">412590000123501024068087210884318<br/>00059005710050112402<br/></td>
+
+
+</tr>
+
+
+<tr>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10 lc_high_contentcol" style="padding-right:0px;">5</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">0</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">Code Type 1&nbsp;<br/>Code Type 2&nbsp;<br/>Code Type 3&nbsp;<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">1<br/>1<br/>1<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">020590007306067115200311370072<br/>412590000123501024068087210884318<br/>00059005710050112402<br/></td>
+
+
+</tr>
+
+
+<tr>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10 lc_high_contentcol" style="padding-right:0px;">6</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">0</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">Code Type 1&nbsp;<br/>Code Type 2&nbsp;<br/>Code Type 3&nbsp;<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">1<br/>1<br/>1<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">020590007306067115200311370072<br/>412590000123501024068087210884318<br/>00059005710050112402<br/></td>
+
+
+</tr>
+
+
+<tr>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10 lc_high_contentcol" style="padding-right:0px;">7</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">0</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">Code Type 1&nbsp;<br/>Code Type 2&nbsp;<br/>Code Type 3&nbsp;<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">1<br/>1<br/>1<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">020590007306067115200311370072<br/>412590000123501024068087210884318<br/>00059005710050112402<br/></td>
+
+
+</tr>
+
+
+<tr>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10 lc_high_contentcol" style="padding-right:0px;">8</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">1</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">Code Type 1&nbsp;<br/>Code Type 2&nbsp;<br/>Code Type 3&nbsp;<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">1<br/>1<br/>1<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">020590007306067115200311370072<br/>412590000123501024068087210884318<br/>00059005710050112402<br/></td>
+
+
+</tr>
+
+
+<tr>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10 lc_high_contentcol" style="padding-right:0px;">9</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">0</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">Code Type 3&nbsp;<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">1<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">00059005710050112402<br/></td>
+
+
+</tr>
+
+
+<tr>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10 lc_high_contentcol" style="padding-right:0px;">10</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">1</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">Code Type 1&nbsp;<br/>Code Type 2&nbsp;<br/>Code Type 3&nbsp;<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">1<br/>1<br/>1<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">020590007306067115200311370072<br/>412590000123501024068087210884318<br/>00059005710050112402<br/></td>
+
+
+</tr>
+
+
+<tr>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10 lc_high_contentcol" style="padding-right:0px;">11</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">0</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">Code Type 2&nbsp;<br/>Code Type 3&nbsp;<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">1<br/>1<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">412590000123501024068087210884318<br/>00059005710050112402<br/></td>
+
+
+</tr>
+
+
+<tr>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10 lc_high_contentcol" style="padding-right:0px;">12</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">0</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">Code Type 1&nbsp;<br/>Code Type 2&nbsp;<br/>Code Type 3&nbsp;<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">1<br/>1<br/>1<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">020590007306067115200311370072<br/>412590000123501024068087210884318<br/>00059005710050112402<br/></td>
+
+
+</tr>
+
+
+<tr>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10 lc_high_contentcol" style="padding-right:0px;">13</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">4</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">Code Type 2&nbsp;<br/>Code Type 3&nbsp;<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">1<br/>1<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">412590000123501024068087210884318<br/>00059005710050112402<br/></td>
+
+
+</tr>
+
+
+<tr>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10 lc_high_contentcol" style="padding-right:0px;">14</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">3</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">Code Type 1&nbsp;<br/>Code Type 2&nbsp;<br/>Code Type 3&nbsp;<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">1<br/>1<br/>1<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">020590007306067115200311370072<br/>412590000123501024068087210884318<br/>00059005710050112402<br/></td>
+
+
+</tr>
+
+
+<tr>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10 lc_high_contentcol" style="padding-right:0px;">15</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">2</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">Code Type 1&nbsp;<br/>Code Type 2&nbsp;<br/>Code Type 3&nbsp;<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">1<br/>1<br/>1<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">020590007306067115200311370072<br/>412590000123501024068087210884318<br/>00059005710050112402<br/></td>
+
+
+</tr>
+
+
+<tr>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10 lc_high_contentcol" style="padding-right:0px;">16</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">1</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">Code Type 2&nbsp;<br/>Code Type 3&nbsp;<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">1<br/>1<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">412590000123501024050254210246601<br/>00059005710051783687<br/></td>
+
+
+</tr>
+
+
+<tr>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10 lc_high_contentcol" style="padding-right:0px;">17</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">0</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">Code Type 3&nbsp;<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">1<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">00059005710051783687<br/></td>
+
+
+</tr>
+
+
+<tr>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10 lc_high_contentcol" style="padding-right:0px;">18</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">0</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">Code Type 3&nbsp;<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">1<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">00059005710051783687<br/></td>
+
+
+</tr>
+
+
+<tr>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10 lc_high_contentcol" style="padding-right:0px;">19</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">4</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">Code Type 1&nbsp;<br/>Code Type 2&nbsp;<br/>Code Type 3&nbsp;<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">1<br/>1<br/>1<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">020571287114278315200229370135<br/>412590000123501024050254210246601<br/>00059005710051783687<br/></td>
+
+
+</tr>
+
+
+<tr>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10 lc_high_contentcol" style="padding-right:0px;">20</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">3</td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">Code Type 1&nbsp;<br/>Code Type 2&nbsp;<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">1<br/>1<br/></td>
+
+
+<td class ="lc_contenttable_contentcol lc_padl10" style="padding-right:0px;">020571287114278315200229370135<br/>412590000123501024050254210246601<br/></td>
+
+
+</tr>
+
+
+</table>
+
+
+<br/><br/><div class="lc_contentelement">
+
+
+This page only shows the result which match your conditions.<br/>
+
+
+The conditions are configurated over SOPAS ET</div>
+
+
+<script language="JavaScript">
+
+
+<!-- // Required to be compliant with XHTML
+
+
+var xmlHttpSysStat=null; // Defines that xmlHttp is a new variable.
+
+
+// Try to get the right object for different browser
+
+
+try {
+
+
+// Firefox, Opera 8.0+, Safari
+
+
+xmlHttpSysStat = new XMLHttpRequest(); // xmlHttp is now a XMLHttpRequest.
+
+
+} catch (e) {
+
+
+// Internet Explorer
+
+
+try {
+
+
+xmlHttpSysStat=new ActiveXObject("Msxml2.XMLHTTP");
+
+
+} catch (e) {
+
+
+xmlHttpSysStat=new ActiveXObject("Microsoft.XMLHTTP");
+
+
+}
+
+
+}
+
+
+var pTimeOutOp=null;
+
+
+function ReceiveData() {
+
+
+if(pTimeOutOp != null)
+
+
+{
+
+
+window.clearTimeout(pTimeOutOp);
+
+
+}
+
+
+pTimeOutOp = null;
+
+
+if ((xmlHttpSysStat.readyState == 4) && (xmlHttpSysStat.status == 200))window.location.reload();
+
+
+}
+
+
+function ReloadData()
+
+
+{
+
+
+try{
+
+
+xmlHttpSysStat.open("get","/Diagnostic_DeviceState_Ajax");
+
+
+xmlHttpSysStat.send(null); // Since there is no supplied form, null takes its place as a new form.
+
+
+pTimeOutOp = window.setTimeout("ReceiveData()",500);
+
+
+}
+
+
+catch (e) {
+
+
+// alert("Error on AJAX while sending : " + e.description);
+
+
+}
+
+
+}
+
+
+
+
+
+
+window.setInterval("ReloadData()",300000);
+
+
+-->
+
+
+</script>
+
+
+				</div>
+
+
+			</td>
+
+
+		</tr>
+
+
+
+
+
+
+	</table>
+
+
+<!-- GENERATED CONTENT ABOVE -->
+
+
+
+
+
+
+
+
+
+
+<!-- device control hidden due to user level restriction -->
+
+
+
+
+
+
+
+
+
+
+<!-- DEVICE INFO -->
+
+
+	<div class="lc_deviceboxcolum_small">
+
+
+		<div class="lc_contentelement">
+
+
+			<h2 class="lc_gesperrt">Device Information</h2>
+
+
+			<div class="lc_finderbuttons">
+
+
+				<table>
+
+
+					<tbody>
+
+
+						<tr>
+
+
+							<td colspan="3" id="DeviceType" class="lc_padl10 lc_marr20">Device: CLV650-6120</td>
+
+
+							<td class="lc_padl10 lc_marr20">Name:</td>
+
+
+							<td class="lc_padl10 lc_marr20" id="DeviceName">CLV6xx</td>
+
+
+						</tr>
+
+
+						<tr>
+
+
+							<td class="lc_padl10 lc_marr20">Firmware:</td>
+
+
+							<td id="Firmware" class="lc_padl10 lc_marr20" style="text-align:right">V6.00 </td>
+
+
+							<td class="lc_padr20"></td>
+
+
+							<td class="lc_padl10 lc_marr20">ID:</td>
+
+
+							<td id="id" class="lc_padl10 lc_marr20" style="text-align:right">1</td>
+
+
+						</tr>
+
+
+						<tr>
+
+
+							<td class="lc_padl10 lc_marr20" colspan="3"><a href="javascript:ReloadDataOp()">Device State:</a></td>
+
+
+							<td class="lc_padl10 lc_marr20" colspan="2"><img id="idState" src="/FS/Webserver/indicator_green.gif" alt="DeviceState"/> <small id="idTxt">(Ready)</small></td>
+
+
+						</tr>
+
+
+						<tr>
+
+
+							<td colspan='3' class="lc_padl10 lc_marr20"><a href='JavaScript:LogIn()'>Login: </a></td>
+
+
+							<td colspan='2' class="lc_padl10 lc_marr20">not logged in</td>
+
+
+						</tr>
+
+
+					</tbody>
+
+
+				</table>
+
+
+				<script language="JavaScript">
+
+
+<!-- // Required to be compliant with XHTML
+
+
+var xmlHttpOp=null; // Defines that xmlHttp is a new variable.
+
+
+// Try to get the right object for different browser
+
+
+try {
+
+
+// Firefox, Opera 8.0+, Safari
+
+
+xmlHttpOp = new XMLHttpRequest(); // xmlHttp is now a XMLHttpRequest.
+
+
+} catch (e) {
+
+
+// Internet Explorer
+
+
+try {
+
+
+xmlHttpOp=new ActiveXObject("Msxml2.XMLHTTP");
+
+
+} catch (e) {
+
+
+xmlHttpOp=new ActiveXObject("Microsoft.XMLHTTP");
+
+
+}
+
+
+}
+
+
+
+
+
+
+var xmlHttpLogin=null; // Defines that xmlHttp is a new variable.
+
+
+// Try to get the right object for different browser
+
+
+try {
+
+
+// Firefox, Opera 8.0+, Safari
+
+
+xmlHttpLogin = new XMLHttpRequest(); // xmlHttp is now a XMLHttpRequest.
+
+
+} catch (e) {
+
+
+// Internet Explorer
+
+
+try {
+
+
+xmlHttpLogin=new ActiveXObject("Msxml2.XMLHTTP");
+
+
+} catch (e) {
+
+
+xmlHttpLogin=new ActiveXObject("Microsoft.XMLHTTP");
+
+
+}
+
+
+}
+
+
+xmlHttpLogin.onreadystatechange = ReloadAfterLogin;
+
+
+
+
+
+
+var pTimeOutReload=null;
+
+
+function ReloadAfterLogin() {
+
+
+if(pTimeOutReload != null)
+
+
+{
+
+
+window.clearTimeout(pTimeOutReload);
+
+
+}
+
+
+pTimeOutReload = null;
+
+
+if (xmlHttpLogin.readyState == 4)
+
+
+if (xmlHttpLogin.status == 200) {
+
+
+location.reload();
+
+
+}
+
+
+}
+
+
+var pTimeOutOp=null;
+
+
+xmlHttpOp.onreadystatechange = ReceiveOp;
+
+
+function ReceiveOp() {
+
+
+if(pTimeOutOp != null)
+
+
+{
+
+
+window.clearTimeout(pTimeOutOp);
+
+
+}
+
+
+pTimeOutOp = null;
+
+
+var sTxt = "not available";
+
+
+var sImg = null;
+
+
+if ((xmlHttpOp.readyState == 4) && (xmlHttpOp.status == 200)) {
+
+
+try { // In some instance, status cannot be retrieve and will produce an error (ex: Port is not responsive)
+
+
+//Set the main HTML of the body to the info provided by the AJAX Request
+
+
+var Response = xmlHttpOp.responseXML
+
+
+sTxt = Response.getElementsByTagName("stxt")[0].firstChild.data;
+
+
+sImg = Response.getElementsByTagName("simg")[0].firstChild.data;
+
+
+
+
+
+
+} catch (e) {
+
+
+//document.getElementById("ajax_output").innerHTML = "Error on Ajax return call : " + e.description;
+
+
+//alert("Error on AJAX return call : " + e.description);
+
+
+}
+
+
+}
+
+
+var idTxt = document.getElementById("idTxt");
+
+
+idTxt.firstChild.data = "(" + sTxt + ")";
+
+
+
+
+
+
+var idImg = document.getElementById("idState");
+
+
+if (sImg != null) idImg.src = "/FS/Webserver/"+sImg;
+
+
+idImg.alt = "(" + sTxt + ")";
+
+
+}
+
+
+
+
+
+
+function LogIn()
+
+
+{
+
+
+xmlHttpLogin.open("get","/Login"); // .open(RequestType, Source);
+
+
+xmlHttpLogin.send(null); // Since there is no supplied form, null takes its place as a new form.
+
+
+pTimeOutReload = window.setTimeout("ReceiveOp()",500);
+
+
+}
+
+
+
+
+
+
+function ReloadDataOp()
+
+
+{
+
+
+try{
+
+
+xmlHttpOp.open("get","/Diagnostic_DeviceState_Ajax"); // .open(RequestType, Source);
+
+
+xmlHttpOp.send(null); // Since there is no supplied form, null takes its place as a new form.
+
+
+pTimeOutOp = window.setTimeout("ReceiveOp()",500);
+
+
+}
+
+
+catch (e) {
+
+
+// alert("Error on AJAX while sending : " + e.description);
+
+
+}
+
+
+}
+
+
+
+
+
+
+window.setInterval("ReloadDataOp()",10000);
+
+
+-->
+
+
+				</script>
+
+
+			</div>
+
+
+		</div>
+
+
+	</div>
+
+
+<!-- DEVICE INFO END -->
+
+
+
+
+
+
+</div>
+
+
+<!-- START MENU-->
+
+
+
+
+
+
+<div id="lc_navigation_small">
+
+
+	<table cellpadding="0" cellspacing='2' class="lc_navigationtable">
+
+
+		<tr valign="middle">
+
+
+<!-- CREATED DATA START-->
+
+
+
+
+
+
+			<td height="27" class="lc_mainnav"><a href="/" class="lc_mainnavlink"><div class="lc_innerlink">HOME</div></a></td>
+
+
+			<td height="27" class="lc_mainnav"><a href="/Diagnostic_ReadingDiag" class="lc_mainnavlink"><div class="lc_innerlink">Quickstart</div></a></td>
+
+
+			<td height="27" class="lc_mainnav"><a href="/SystemStatus" class="lc_mainnavlink"><div class="lc_innerlink">System&nbsp;Status</div></a></td>
+
+
+			<td height="27" class="lc_mainnav"><a href="/Statistics" class="lc_mainnavlinkactive"><div class="lc_innerlink">Statistics</div></a></td>
+
+
+<!-- CREATED DATA END-->
+
+
+
+
+
+
+		</tr>
+
+
+	</table>
+
+
+</div>
+
+
+<div id="lc_subnavigation">
+
+
+	<table cellpadding="0" cellspacing="0" class="lc_subnavigationtable" border="0">
+
+
+		<tr valign="middle">
+
+
+<!-- CREATED DATA START-->
+
+
+
+
+
+
+			<td height="40" width="1" class="lc_subnav"><a href="/Statistics" class="lc_subnavlink"><div class="lc_innerlink2">Daily&nbsp;Overview</div></a></td>
+
+
+			<td height="40" width="1" class="lc_subnav"><a href="/Statistics/daily/perhour" class="lc_subnavlink"><div class="lc_innerlink2">Daily&nbsp;per&nbsp;Hour</div></a></td>
+
+
+			<td height="40" width="1" class="lc_subnav"><a href="/Statistics/daily/per100" class="lc_subnavlink"><div class="lc_innerlink2">Daily&nbsp;per&nbsp;100&nbsp;Readings</div></a></td>
+
+
+			<td height="40" width="1" class="lc_subnav"><a href="/Statistics/current/last20" class="lc_subnavlinkactive"><div class="lc_innerlink2">Current&nbsp;Results</div></a></td>
+
+
+<!-- CREATED DATA END-->
+
+
+
+
+
+
+			<td height="40" class="lc_subnav">&nbsp;</td>
+
+
+		</tr>
+
+
+	</table>
+
+
+</div>
+
+
+
+
+
+
+<!-- END MENU-->
+
+
+
+
+
+
+
+
+
+
+<!--TOP NAVIGATION START -->
+
+
+	<div id="lc_navigationtop">
+
+
+	<table cellpadding="0" cellspacing="0" border="0">
+
+
+		<tr>
+
+
+			<td>
+
+
+				<div id="lc_topnav">
+
+
+					<a href="/" class="lc_topnavlink">Home</a>
+
+
+					<a href="http://www.sick.com" class="lc_topnavlink">SICK AG</a>
+
+
+				</div>
+
+
+			</td>
+
+
+		</tr>
+
+
+	</table>
+
+
+</div>
+
+
+<div id="lc_buehne_small"></div>
+
+
+
+
+
+
+<!--TOP NAVIGATION END -->
+
+
+
+
+
+
+<!--FOOTER-->
+
+
+
+
+
+
+	<div id="lc_sicklogo"><img src="/FS/Webserver/sick_logo.gif"/></div>
+
+
+	<div id="lc_siteidentifier"><img src="/FS/Webserver/site_identifier.gif"/></div>
+
+
+	<div id="lc_mosstopmenu"></div>
+
+
+</body>
+
+
+</html>
+

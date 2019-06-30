@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Mail>
+  <Connected>
+    <Subject>SickRoss connected - @NAME</Subject>
+    <Body>@DISCONNECTDATETIME - @CONNECTDATETIME</Body>
+  </Connected>
+  <Disconnected>
+    <Subject>SickRoss disconnected - @NAME</Subject>
+    <Body>@DISCONNECTDATETIME</Body>
+  </Disconnected>
+</Mail>

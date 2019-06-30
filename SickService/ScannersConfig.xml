@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Scanners>
+  <Scanner>
+    <Name>Scanner 1</Name>
+    <Address>172.19.78.50</Address>
+    <Port>2112</Port>
+    <ReconnectTime>30000</ReconnectTime>
+
+    <HistoricalCodePattern>&gt;02\d{28}&lt;br/&gt;4125900001235\d*&lt;br/&gt;00\d{18}&lt;br/&gt;</HistoricalCodePattern>
+    <EnableHistoricalRead>True</EnableHistoricalRead>
+    <MailRecipients>test@example.local</MailRecipients>
+    <MailOnConnectionTry>2</MailOnConnectionTry>
+
+    <LogFilePath>f:\</LogFilePath>
+    <LogFileName>@DATE @NAME.txt</LogFileName>
+    <LogLevel>Debug</LogLevel>
+
+      <FileTemplate>
+        <SavePath>f:\1</SavePath>
+        <Name>LAST(6,@CODE1) @CODE2 @DATE@TIME.csv</Name>
+        <Content>@CODE2;LAST(4,@CODE0)</Content>
+      </FileTemplate>
+    
+      <FileTemplate>
+        <SavePath>f:\2</SavePath>
+        <Name>@DATE@TIME @CODE2.csv</Name>
+        <Content>@DATE@TIME;@CODE0;@CODE1;@CODE2;</Content>
+      </FileTemplate>
+    
+      <CodeTemplate>
+        <Name>@CODE0</Name>
+        <Pattern>^02\d{28}$</Pattern>
+      </CodeTemplate>
+    
+      <CodeTemplate>
+        <Name>@CODE1</Name>
+        <Pattern>^4125900001235\d*$</Pattern>
+      </CodeTemplate>
+    
+      <CodeTemplate>
+        <Name>@CODE2</Name>
+        <Pattern>^00\d{18}$</Pattern>
+      </CodeTemplate>
+  </Scanner>
+</Scanners>
