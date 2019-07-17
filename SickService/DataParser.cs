@@ -14,7 +14,7 @@ namespace SickService
         public DataRAWFormatProvider DataRAWFormatProvider = new DataRAWFormatProvider();
 
         /// <summary>
-        /// List of config to use
+        /// List of configures to use
         /// </summary>
         public List<DataParserConfig> DataParserConfigs = new List<DataParserConfig>();
 
@@ -47,7 +47,7 @@ namespace SickService
                 {
                     if (Regex.IsMatch(tmp[i], dpc.Pattern))
                     {
-                        tmpCodes[j++] = new Code(dpc.Name, tmp[i]);
+                        tmpCodes[j++] = new Code(dpc.Name, tmp[i], e.IsHistorical);
                         break;
                     }
                 }
@@ -68,7 +68,8 @@ namespace SickService
                 //input >020590007310033915190918370028<br/>412590000123501024058021810887762<br/>00059005710052701543<br/>
                 //output \u0002020590007310033915190918370028\u0003\u0002412590000123501024058021810887762\u0003\u000200059005710052701529\u0003
                 string dataRAW = string.Format("\u0002{0}", historicalCodes[i].Replace("<br/>", "\u0003\u0002").TrimEnd('\u0002').TrimStart('>'));
-                Parse(o, new SickScannerEventArgs(dataRAW));               
+                Log.Add(string.Format("Historical Data RAW: {0}", dataRAW), LogLevel.Debug);
+                Parse(o, new SickScannerEventArgs(dataRAW, true));               
             }        
         }
     }

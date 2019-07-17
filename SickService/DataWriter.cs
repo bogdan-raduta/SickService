@@ -53,7 +53,7 @@ namespace SickService
         }
 
         /// <summary>
-        /// Applay substring functions on codes e.g SUBSTRING(2,4,@CODE2)
+        /// Apply substring functions on codes e.g SUBSTRING(2,4,@CODE2)
         /// </summary>
         /// <param name="template"></param>
         /// <returns></returns>
@@ -72,13 +72,13 @@ namespace SickService
             }
             catch (Exception ex)
             {
-                Log.AddError("Sybstring funcition error", ex);
+                Log.AddError("Substring function error", ex);
             }
             return template;
         }
 
         /// <summary>
-        /// Applay last functions on codes e.g LAST(6,@CODE2)
+        /// Apply last functions on codes e.g LAST(6,@CODE2)
         /// </summary>
         /// <param name="template"></param>
         /// <returns></returns>
@@ -97,7 +97,7 @@ namespace SickService
             }
             catch (Exception ex)
             {
-                Log.AddError("Last funcition error", ex);
+                Log.AddError("Last function error", ex);
             }
             return template;
         }

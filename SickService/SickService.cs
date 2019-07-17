@@ -31,7 +31,7 @@ namespace SickService
             }
             catch (Exception ex)
             {
-                log.AddError("Unknow error", ex);
+                log.AddError("Unknown error", ex);
                 OnStop();
             }
         }
@@ -111,7 +111,7 @@ namespace SickService
             foreach (Thread t in Threads)
                 while (t.ThreadState != ThreadState.Stopped)
                     Thread.Sleep(1000);
-            log.Add("Service stoped");
+            log.Add("Service stopped");
         }
     }
 }

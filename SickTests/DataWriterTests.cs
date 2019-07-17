@@ -26,8 +26,8 @@ namespace RDS.Sick.Tests
             dw.DataWriterConfigs.Add(dwc2);
 
             Code[] codes = new Code[2];
-            codes[0] = new Code("@CODE1", "012345678");
-            codes[1] = new Code("@CODE2", "0987654321");
+            codes[0] = new Code("@CODE1", "012345678",false);
+            codes[1] = new Code("@CODE2", "0987654321",false);
             
             DataParserEventArgs dpea = new DataParserEventArgs(codes);
             dw.Write(this, dpea);

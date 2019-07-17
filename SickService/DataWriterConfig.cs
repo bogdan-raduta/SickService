@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,6 +18,13 @@ namespace SickService
             FileNameTemplate = fileNameTemplate;
             SavePath = savePath;
             FileContentTemplate = fileContentTemplate;
+            PrepareDirectory();
+        }
+
+        private void PrepareDirectory()
+        {
+            if (!Directory.Exists(SavePath))
+                Directory.CreateDirectory(SavePath);
         }
     }
 }

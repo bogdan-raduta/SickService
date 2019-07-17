@@ -33,13 +33,13 @@ namespace RDS.Sick.Tests
 
         private void ParseTest_Parsed(object sender, DataParserEventArgs e)
         {
-            Code c1 = new Code("@CODE1", "020590007310033915190918370028");
-            Code c2 = new Code("@CODE2", "412590000123501024058021810887762");
-            Code c3 = new Code("@CODE3", "00059005710052701529");
+            Code c1 = new Code("@CODE1", "020590007310033915190918370028",false);
+            Code c2 = new Code("@CODE2", "412590000123501024058021810887762", false);
+            Code c3 = new Code("@CODE3", "00059005710052701529", false);
 
-            Code b1 = new Code("@CODE1", "590007310033915190918370028");
-            Code b2 = new Code("@CODE2", "020590007310033915190918370028");
-            Code b3 = new Code("@CODE3", "00059005710052701");
+            Code b1 = new Code("@CODE1", "590007310033915190918370028", false);
+            Code b2 = new Code("@CODE2", "020590007310033915190918370028", false);
+            Code b3 = new Code("@CODE3", "00059005710052701", false);
 
             Assert.IsTrue(e.Codes.Contains(c1));
             Assert.IsTrue(e.Codes.Contains(c2));
@@ -73,13 +73,13 @@ namespace RDS.Sick.Tests
 
         private void HistoricalParseTest_Parsed(object sender, DataParserEventArgs e)
         {
-            Code c1 = new Code("@CODE1", "020590007306067115200311370072");
-            Code c2 = new Code("@CODE2", "412590000123501024068087210884318");
-            Code c3 = new Code("@CODE3", "00059005710050112402");
+            Code c1 = new Code("@CODE1", "020590007306067115200311370072", false);
+            Code c2 = new Code("@CODE2", "412590000123501024068087210884318", false);
+            Code c3 = new Code("@CODE3", "00059005710050112402", false);
 
-            Code b1 = new Code("@CODE1", "020590007310033915190918370028");
-            Code b2 = new Code("@CODE2", "412590000123501024058021810887762");
-            Code b3 = new Code("@CODE3", "00059005710052701529");
+            Code b1 = new Code("@CODE1", "020590007310033915190918370028", false);
+            Code b2 = new Code("@CODE2", "412590000123501024058021810887762", false);
+            Code b3 = new Code("@CODE3", "00059005710052701529", false);
 
             Assert.IsTrue(e.Codes.Contains(c1));
             Assert.IsTrue(e.Codes.Contains(c2));

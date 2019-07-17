@@ -10,7 +10,7 @@ namespace SickService
     {
         public static string Replace(this string s, Code code)
         {
-            return s.Replace(code.Name, code.Value);
+            return s.Replace(code.Name, code.Value).Replace("@ISHISTORICAL", code.IsHistorical.ToString());
         }
     }
 }

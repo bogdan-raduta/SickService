@@ -11,9 +11,9 @@ namespace SickService
 {
     static class Program
     {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
+        // <summary>
+        // The main entry point for the application.
+        // </summary>
         //static void Main()
         //{
         //    ServiceBase[] ServicesToRun;

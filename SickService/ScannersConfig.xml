@@ -24,7 +24,7 @@
       <FileTemplate>
         <SavePath>f:\2</SavePath>
         <Name>@DATE@TIME @CODE2.csv</Name>
-        <Content>@DATE@TIME;@CODE0;@CODE1;@CODE2;</Content>
+        <Content>@DATE@TIME;@CODE0;@CODE1;@CODE2;@ISHISTORICAL</Content>
       </FileTemplate>
     
       <CodeTemplate>

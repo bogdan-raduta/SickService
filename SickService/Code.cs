@@ -10,11 +10,13 @@ namespace SickService
     {
         public readonly string Name;
         public readonly string Value;
+        public readonly bool IsHistorical;
 
-        public Code(string name, string value)
+        public Code(string name, string value, bool isHistorical)
         {
             Name = name;
             Value = value;
+            IsHistorical = isHistorical;
         }
     }
 }

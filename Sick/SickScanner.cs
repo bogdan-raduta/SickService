@@ -231,7 +231,7 @@ namespace RDS.Sick
                 }
                 catch (Exception ex)
                 {
-                    Log.AddError("Unknow error", ex);
+                    Log.AddError("Unknown error", ex);
                 }
             }
             return false;
@@ -313,7 +313,7 @@ namespace RDS.Sick
                 StreamReader reader = new StreamReader(response.GetResponseStream(), Encoding.UTF8);
                 string result = reader.ReadToEnd();
                 
-                OnHistoricalReaded(new SickScannerEventArgs(result));
+                OnHistoricalReaded(new SickScannerEventArgs(result, true));
             }
             catch (Exception ex)
             {

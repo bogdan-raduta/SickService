@@ -31,6 +31,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Log, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Log\bin\Release\Log.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Windows.Forms" />
@@ -46,12 +50,6 @@
     <Compile Include="SickScanner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SickScannerEventArgs.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Log\Log.csproj">
-      <Project>{7e1930b7-505f-4cda-b977-b7c867e7fae3}</Project>
-      <Name>Log</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="MailTemplates.xml">
