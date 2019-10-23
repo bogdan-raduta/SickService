@@ -41,9 +41,9 @@
             // 
             // serviceInstaller1
             // 
-            this.serviceInstaller1.Description = "SickRoss by Łukasz Królikowski";
-            this.serviceInstaller1.DisplayName = "SickRoss";
-            this.serviceInstaller1.ServiceName = "SickRoss";
+            this.serviceInstaller1.Description = "Sick service";
+            this.serviceInstaller1.DisplayName = "Sick";
+            this.serviceInstaller1.ServiceName = "Sick";
             // 
             // ProjectInstaller
             // 
